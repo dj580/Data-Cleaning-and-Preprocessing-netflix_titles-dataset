@@ -5,7 +5,7 @@ The goal of this project was to clean and prepare a raw Netflix dataset by handl
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 - Python (Pandas)
 -  Visual Studio Code
 ---
@@ -63,7 +63,7 @@ The dataset contains information about Netflix Movies and TV Shows, with columns
 
 ---
 
-## 📄 Deliverables
+##  Deliverables
 - Cleaned dataset (CSV/Excel)
 - Summary report
 - This `README.md` file

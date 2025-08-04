@@ -1,17 +1,16 @@
-# 📺 Netflix Dataset Cleaning Project
+#  Netflix Dataset Cleaning Project
 
-## 📌 Objective
+##  Objective
 The goal of this project was to clean and prepare a raw Netflix dataset by handling missing values, correcting data types, standardizing formats, and ensuring consistency across the data for further analysis or modeling.
 
 ---
 
-## 🛠️ Tools Used
+## 🛠 Tools Used
 - Python (Pandas)
-- Jupyter Notebook
-
+-  Visual Studio Code
 ---
 
-## 📂 Dataset Overview
+##  Dataset Overview
 The dataset contains information about Netflix Movies and TV Shows, with columns such as:
 - `show_id`
 - `type`
@@ -28,7 +27,7 @@ The dataset contains information about Netflix Movies and TV Shows, with columns
 
 ---
 
-## 🧹 Data Cleaning Steps
+##  Data Cleaning Steps
 
 ### 1. **Missing Value Handling**
 - Filled missing `director` with `"Unknown"`.
@@ -38,7 +37,7 @@ The dataset contains information about Netflix Movies and TV Shows, with columns
 - Dropped rows with missing `date_added` and `duration`.
 
 ### 2. **Duplicate Handling**
-- Checked for duplicates using `df.duplicated().sum()` → ✅ No duplicates found.
+- Checked for duplicates using `df.duplicated().sum()` →  No duplicates found.
 
 ### 3. **Standardization**
 - Column names converted to lowercase with underscores.
@@ -58,7 +57,7 @@ The dataset contains information about Netflix Movies and TV Shows, with columns
 
 ---
 
-## ✅ Final Outcome
+##  Final Outcome
 - Cleaned, structured, and well-prepared dataset.
 - Ready for EDA, visualization, and machine learning tasks.
 
